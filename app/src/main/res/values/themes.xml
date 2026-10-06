@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light Base Theme -->
+    <style name="Base.Theme.FitnessTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/on_accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.FitnessTrackerApp" parent="Base.Theme.FitnessTrackerApp" />
+
+    <style name="Theme.FitnessTrackerApp.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#06452D</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#06452D</item>
+    </style>
+
+    <!-- Circular Shape Appearance for Social Media Style Avatars -->
+    <style name="ShapeAppearance.App.Circular" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.FitnessTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#10B981</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#06452D</item>
+        <item name="colorOnPrimaryContainer">#E8F5E9</item>
+        <item name="colorSecondary">#A3E635</item>
+        <item name="colorOnSecondary">#06452D</item>
+        <item name="android:colorBackground">#111814</item>
+        <item name="colorSurface">#1A231E</item>
+        <item name="colorSurfaceVariant">#243029</item>
+        <item name="android:statusBarColor">#111814</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

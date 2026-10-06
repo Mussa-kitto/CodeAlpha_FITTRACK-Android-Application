@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="120dp"
+    android:viewportWidth="360"
+    android:viewportHeight="120">
+
+    <path
+        android:pathData="M0,0h360v120h-360z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="45"
+                android:endColor="#06452D"
+                android:startColor="#10B981"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <path
+        android:fillColor="#25FFFFFF"
+        android:pathData="M270,30 L320,80 L360,40 L360,120 L240,120 Z" />
+
+    <!-- Fitness Dumbbell Symbol Accent -->
+    <path
+        android:fillColor="#40FFFFFF"
+        android:pathData="M310,50 L315,45 L325,55 L320,60 Z M280,80 L285,75 L295,85 L290,90 Z M288,78 L318,48 L322,52 L292,82 Z"/>
+</vector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Progress Arc Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A3E635"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,20 A 34,34 0 1,1 24,60" />
+
+    <!-- Secondary Ring Dots -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,16 A 4,4 0 1 1 54,24 A 4,4 0 1 1 54,16" />
+
+    <!-- Runner Icon Symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,36c1.65,0 3,-1.35 3,-3s-1.35,-3 -3,-3 -3,1.35 -3,3 1.35,3 3,3zM52.5,56.8l1.5,-6.6 3.15,3v9h3v-11.25l-3.15,-3 0.9,-4.5c1.95,2.25 4.95,3.75 8.25,3.75v-3c-2.85,0 -5.25,-1.5 -6.45,-3.6l-1.5,-2.4c-0.6,-0.9 -1.5,-1.5 -2.55,-1.5 -0.45,0 -0.75,0.15 -1.2,0.15L46.8,40.2V47.25h3V42.15l2.7,-1.05 -2.4,12.15 -7.35,-1.5 -0.6,3 10.35,1.95z"/>
+</vector>
